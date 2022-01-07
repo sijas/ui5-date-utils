@@ -1,0 +1,34 @@
+{
+  "name": "openui5-date-utils",
+  "version": "1.0.0",
+  "description": "A Library to handle Date utilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sijas/ui5-date-utils.git"
+  },
+  "keywords": [
+    "openui5",
+    "sapui5",
+    "ui5",
+    "ui5lab",
+    "date",
+    "utils",
+    "library"
+  ],
+  "author": {
+    "name": "Mohammed Sijas",
+    "email": "me@sijas.in"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sijas/ui5-date-utils/issues"
+  },
+  "homepage": "https://github.com/sijas/ui5-date-utils#readme",
+  "dependencies": {
+    "@ui5/cli": "^2.14.2"
+  }
+}

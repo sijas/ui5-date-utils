@@ -1,0 +1,43 @@
+{
+    "_version": "1.12.0",
+    "sap.app": {
+        "id": "in.sijas.demo.date.utils.tour",
+        "type": "application",
+        "i18n": "i18n/i18n.properties",
+        "title": "{{pageTile}}",
+        "description": "{{description}}",
+        "applicationVersion": {
+            "version": "1.0.0"
+        }
+    },
+    "sap.ui5": {
+        "rootView": {
+            "viewName": "in.sijas.demo.date.utils.tour.view.Initial",
+            "type": "XML",
+            "id": "app"
+        },
+        "dependencies": {
+            "libs": {
+                "in.sijas.ui5.lib.date-utils": {},
+                "sap.m": {},
+                "sap.ui.core": {}
+            }
+        },
+        "models": {
+            "i18n": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "settings": {
+                    "bundleName": "in.sijas.demo.date.utils.tour.i18n.i18n"
+                }
+            }
+        }
+    },
+    "sap.ui": {
+        "technology": "UI5",
+        "deviceTypes": {
+            "desktop": true,
+            "phone": true,
+            "tablet": true
+        }
+    }
+}

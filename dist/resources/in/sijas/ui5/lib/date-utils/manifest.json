@@ -1,0 +1,41 @@
+{
+  "_version": "1.21.0",
+  "sap.app": {
+    "id": "in.sijas.ui5.lib.date-utils",
+    "type": "library",
+    "embeds": [],
+    "applicationVersion": {
+      "version": "1.0.0"
+    },
+    "title": "An OpenUI5 library which is used to handle Date utilities",
+    "description": "An OpenUI5 library which is used to handle Date utilities",
+    "resources": "resources.json",
+    "offline": true
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "supportedThemes": []
+  },
+  "sap.ui5": {
+    "dependencies": {
+      "minUI5Version": "1.97",
+      "libs": {
+        "sap.ui.core": {
+          "minVersion": "1.97.0"
+        }
+      }
+    },
+    "library": {
+      "i18n": false,
+      "css": false,
+      "content": {
+        "controls": [
+          "in.sijas.ui5.lib.date-utils.DateUtils"
+        ],
+        "elements": [],
+        "types": [],
+        "interfaces": []
+      }
+    }
+  }
+}
